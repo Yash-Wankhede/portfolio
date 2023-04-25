@@ -1,9 +1,52 @@
-<!DOCTYPE>
+<!DOCTYPE html>
 <html>
 <head>
-<title>Under Construction</title>
+  <title>Site Under Construction</title>
+  <style>
+    body {
+      background-color: black;
+      font-family: Arial, sans-serif;
+    }
+    .container {
+      max-width: 600px;
+      margin: 0 auto;
+      padding: 50px;
+      text-align: center;
+    }
+    h1 {
+      color: #39FF14; /* neon green color */
+      font-size: 48px;
+      margin-bottom: 30px;
+    }
+    p {
+      color: white;
+      font-size: 24px;
+      margin-bottom: 50px;
+    }
+    .loader {
+      border: 16px solid #39FF14; /* neon green color */
+      border-radius: 50%;
+      border-top: 16px solid black;
+      width: 120px;
+      height: 120px;
+      animation: spin 1.5s linear infinite;
+      margin: 0 auto;
+    }
+    @keyframes spin {
+      0% {
+        transform: rotate(0deg);
+      }
+      100% {
+        transform: rotate(360deg);
+      }
+    }
+  </style>
 </head>
 <body>
-<p>This page is under construction. Please come back soon!</p>
+  <div class="container">
+    <h1>Site Under Construction</h1>
+    <p>We're working hard to bring you an awesome website. Stay tuned!</p>
+    <div class="loader"></div>
+  </div>
 </body>
 </html>
